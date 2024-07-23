@@ -1,15 +1,14 @@
 {
   "compilerOptions": {
     "target": "es5",
+    "module": "commonjs",
     "lib": ["dom", "es2015"],
     "jsx": "react",
-    "module": "commonjs",
-    "moduleResolution": "node",
-    "esModuleInterop": true,
-    "forceConsistentCasingInFileNames": true,
+    "outDir": "./dist",
+    "rootDir": "./src",
     "strict": true,
-    "skipLibCheck": true,
-    "outDir": "./dist"
+    "esModuleInterop": true,
+    "declaration": true
   },
   "include": ["src"]
 }

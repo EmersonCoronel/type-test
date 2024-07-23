@@ -43,7 +43,7 @@ const useTypeTest = () => {
     }
 
     // Prevent action if the last character in user input is a space or if at the beginning of the line
-    if (event.key === ' ' && (userInputs[currentLineIndex].slice(-1) === ' ' || currentCharIndex === 0)) {
+    if (event.key === ' ' && (userInputs[currentLineIndex].endsWith(' ') || currentCharIndex === 0)) {
       console.log("Here")
       event.preventDefault();
       return;
@@ -52,7 +52,7 @@ const useTypeTest = () => {
     // Handle backspace key
     if (event.key === 'Backspace') {
       // Check if the character being deleted is a space
-      if (userInputs[currentLineIndex][userInputs[currentLineIndex].length - 1] === ' ') {
+      if (userInputs[currentLineIndex].endsWith(' ')) {
         // Set the character index to the last character before the space
         setCurrentCharIndex(userInputs[currentLineIndex].length - 1);
       } else {

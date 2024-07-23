@@ -1,1 +1,1 @@
-export {default as TypeTest } from './TypeTest';
+export { default as TypeTest } from './TypeTest';
