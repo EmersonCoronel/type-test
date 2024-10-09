@@ -39,18 +39,11 @@
 }
 
 .test-line .char span {
-  /* Ensure the character spans are inline */
   display: inline;
 }
 
 .test-line .cursor {
-  /* Style your cursor */
   display: inline;
-}
-
-.word {
-  color: gray;
-  display: inline-block;
 }
 
 .cursor {
