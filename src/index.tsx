@@ -4,7 +4,6 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import TypeTest from "./TypeTest";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./styles.css"
 
 const rootElement = document.getElementById("root");
 
