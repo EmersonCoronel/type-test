@@ -1,2 +1,2 @@
-# typographia
-This is the repository for the Typographia type test on emersoncoronel.com
+# Type Test
+This is the repository for the type test on emersoncoronel.com
