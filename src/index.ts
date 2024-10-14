@@ -1,1 +1,1 @@
-export { default as TypeTest } from '../src/TypeTest';
+export { default as TypeTest } from './TypeTest';
