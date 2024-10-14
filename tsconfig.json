@@ -1,14 +1,16 @@
 {
   "compilerOptions": {
-    "target": "es5",
-    "module": "commonjs",
+    "target": "es6",
+    "module": "ESNext",
     "lib": ["dom", "es2015"],
-    "jsx": "react",
+    "jsx": "react-jsx",
     "outDir": "./dist",
-    "rootDir": "./src",
+    "rootDir": "./src", // Only compile src files
     "strict": true,
     "esModuleInterop": true,
-    "declaration": true
+    "declaration": true,
+    "moduleResolution": "node"
   },
-  "include": ["src"]
+  "include": ["src"], // Only include src for compilation
+  "exclude": ["dev", "node_modules"] // Exclude dev files from build
 }
