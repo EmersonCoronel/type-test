@@ -1,0 +1,1 @@
+export { default as TypeTest } from '../src/TypeTest';
